@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TIN Survey</title>
+  <meta name="description" content="TIN Survey capture page" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="ml-embed.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="card" aria-labelledby="survey-title">
+      <h1 id="survey-title">Quick Survey</h1>
+      <p class="subtitle">Thanks for taking a minute to share your feedback.</p>
+
+      <div id="mlb2-36596359" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-36596359">
+        <div class="ml-form-align-center ">
+          <div class="ml-form-embedWrapper embedForm">
+            <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">
+              <div class="ml-form-embedContent" style=" ">
+                <h4>TIN200 Survey</h4>
+                <p>Please enter your last financial year's FYE</p>
+              </div>
+
+              <form class="ml-block-form" action="https://assets.mailerlite.com/jsonp/1537579/forms/178326180957521302/subscribe" data-code="" method="post" target="_blank">
+                <div class="ml-form-formContent">
+                  <div class="ml-form-fieldRow ">
+                    <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
+                      <label>Email</label>
+                      <input aria-label="email" aria-required="true" type="email" class="form-control" data-inputmask="" name="fields[email]" placeholder="" autocomplete="email">
+                    </div>
+                  </div>
+                  <div class="ml-form-fieldRow ">
+                    <div class="ml-field-group ml-field-name">
+                      <label>Name</label>
+                      <input aria-label="name" type="text" class="form-control" data-inputmask="" name="fields[name]" placeholder="" autocomplete="given-name">
+                    </div>
+                  </div>
+                  <div class="ml-form-fieldRow ">
+                    <div class="ml-field-group ml-field-last_name">
+                      <label>Last name</label>
+                      <input aria-label="last_name" type="text" class="form-control" data-inputmask="" name="fields[last_name]" placeholder="" autocomplete="family-name">
+                    </div>
+                  </div>
+                  <div class="ml-form-fieldRow ">
+                    <div class="ml-field-group ml-field-company">
+                      <label>Company</label>
+                      <input aria-label="company" type="text" class="form-control" data-inputmask="" name="fields[company]" placeholder="" autocomplete="">
+                    </div>
+                  </div>
+                  <div class="ml-form-fieldRow ">
+                    <div class="ml-field-group ml-field-fye_current_year ml-validate-required">
+                      <label>Last Financial Year FYE</label>
+                      <input aria-label="fye_current_year" aria-required="true" type="number" class="form-control" data-inputmask="" name="fields[fye_current_year]" placeholder="" autocomplete="">
+                    </div>
+                  </div>
+                  <div class="ml-form-fieldRow ">
+                    <div class="ml-field-group ml-field-fye_year_1 ml-validate-required">
+                      <label>FYE Year -1</label>
+                      <input aria-label="fye_year_1" aria-required="true" type="number" class="form-control" data-inputmask="" name="fields[fye_year_1]" placeholder="" autocomplete="">
+                    </div>
+                  </div>
+                  <div class="ml-form-fieldRow ml-last-item">
+                    <div class="ml-field-group ml-field-fye_year_2 ml-validate-required">
+                      <label>FYE Year -2</label>
+                      <input aria-label="fye_year_2" aria-required="true" type="number" class="form-control" data-inputmask="" name="fields[fye_year_2]" placeholder="" autocomplete="">
+                    </div>
+                  </div>
+                </div>
+
+                <input type="hidden" name="ml-submit" value="1">
+
+                <div class="ml-form-embedSubmit">
+                  <button type="submit" class="primary">Submit</button>
+                  <button disabled="disabled" style="display: none;" type="button" class="loading">
+                    <div class="ml-form-embedSubmitLoad"></div>
+                    <span class="sr-only">Loading...</span>
+                  </button>
+                </div>
+
+                <input type="hidden" name="anticsrf" value="true">
+              </form>
+            </div>
+
+            <div class="ml-form-successBody row-success" style="display: none">
+              <div class="ml-form-successContent">
+                <h4>Thank you!</h4>
+                <p>You have successfully updated your TIN200 information.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        function ml_webform_success_36596359() {
+          var $ = ml_jQuery || jQuery;
+          $('.ml-subscribe-form-36596359 .row-success').show();
+          $('.ml-subscribe-form-36596359 .row-form').hide();
+        }
+      </script>
+
+      <!-- MailerLite Universal -->
+      <script>
+        (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+        .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+        n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+        (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+        ml('account', '1537579');
+      </script>
+      <!-- End MailerLite Universal -->
+      <script>
+        (function prefillMailerLiteFieldsFromQuery() {
+          var query = new URLSearchParams(window.location.search);
+          if (!query.toString()) {
+            return;
+          }
+
+          var mappings = [
+            { fieldName: 'fields[email]', aliases: ['email', 'fields[email]'] },
+            { fieldName: 'fields[name]', aliases: ['name', 'first_name', 'fields[name]'] },
+            { fieldName: 'fields[last_name]', aliases: ['last_name', 'lastname', 'fields[last_name]'] },
+            { fieldName: 'fields[company]', aliases: ['company', 'fields[company]'] },
+            { fieldName: 'fields[fye_current_year]', aliases: ['fye_current_year', 'fields[fye_current_year]'] },
+            { fieldName: 'fields[fye_year_1]', aliases: ['fye_year_1', 'fields[fye_year_1]'] },
+            { fieldName: 'fields[fye_year_2]', aliases: ['fye_year_2', 'fields[fye_year_2]'] }
+          ];
+
+          function getFirstValue(aliases) {
+            for (var index = 0; index < aliases.length; index += 1) {
+              var value = query.get(aliases[index]);
+              if (value !== null && value !== '') {
+                return value;
+              }
+            }
+            return null;
+          }
+
+          function setValue(fieldName, value) {
+            var input = document.querySelector('input[name="' + fieldName + '"]');
+            if (!input) {
+              return null;
+            }
+
+            input.value = value;
+            input.dispatchEvent(new Event('input', { bubbles: true }));
+            input.dispatchEvent(new Event('change', { bubbles: true }));
+            return input;
+          }
+
+          mappings.forEach(function (mapping) {
+            var value = getFirstValue(mapping.aliases);
+            if (value !== null) {
+              var input = setValue(mapping.fieldName, value);
+
+              if (mapping.fieldName === 'fields[email]' && input) {
+                input.readOnly = true;
+                input.setAttribute('aria-readonly', 'true');
+                input.classList.add('prefilled-readonly');
+                input.title = 'Email is prefilled from your secure survey link.';
+              }
+            }
+          });
+        })();
+      </script>
+      <script src="https://groot.mailerlite.com/js/w/webforms.min.js?v176e10baa5e7ed80d35ae235be3d5024" type="text/javascript"></script>
+      <script>
+        fetch("https://assets.mailerlite.com/jsonp/1537579/forms/178326180957521302/takel")
+      </script>
+
+      <noscript>
+        <p class="noscript">Please enable JavaScript to load the survey form.</p>
+      </noscript>
+    </section>
+  </main>
+</body>
+</html>
+
